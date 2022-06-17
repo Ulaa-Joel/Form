@@ -6,7 +6,7 @@
 body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    background-image: url("/bg-intro-desktop.png");
+    background-image: url("/Form/bg-intro-desktop.png");
     background-color: hsl(0, 100%, 74%);
 }
 .main{
