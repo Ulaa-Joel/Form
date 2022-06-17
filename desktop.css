@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    background: url("/bg-intro-desktop");
+    background-color: hsl(0, 100%, 74%);
+    box-sizing: border-box;
+}
+.main{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.column{
+    width: 100%;
+    padding: 30px;
+}
+
+@media screen and (max-width:375px) {
+    .column{
+        width: 100%;
+    }
+}
+form {
+    background-color: white;
+    width: 100%;
+}
+.take button{
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-style: hidden;
+    border-radius: 20px;
+    width: 100%;
+}
+.form button{
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-style: hidden;
+    border-radius: 20px;
+    width: 100%;
+}
+.form label {
+    background-color: white;
+}
+.form input {
+    background-color: white;
+}
