@@ -1,32 +1,58 @@
 *{
     padding: 0;
     margin: 0;
-    background: url("/bg-intro-desktop");
-    background-color: hsl(0, 100%, 74%);
     box-sizing: border-box;
+}
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-image: url("/bg-intro-desktop.png");
+    background-color: hsl(0, 100%, 74%);
 }
 .main{
     width: 80%;
     margin: auto;
-    display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
 }
 
 .column{
+    width: 60%;
+    font-family: 'Poppins', sans-serif;
+}
+.master {
+    margin-bottom: 15px;
+    max-width: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.input {
+    display: block;
     width: 100%;
-    padding: 30px;
+    padding: 12px;
+    border: 1px solid #dddddd;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
 }
 
 @media screen and (max-width:375px) {
-    .column{
+    .main{
         width: 100%;
+        flex-direction: column;
     }
 }
-form {
+.form {
     background-color: white;
     width: 100%;
+    padding: 30px;
+    border-radius: 10px;
+    font-family: 'Poppins', sans-serif;
+}
+.take {
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
 }
 .take button{
     background-color: hsl(248, 32%, 49%);
@@ -36,8 +62,10 @@ form {
     padding-left: 25px;
     padding-right: 25px;
     border-style: hidden;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 100%;
+    height: 50px;
+    font-family: 'Poppins', sans-serif;
 }
 .form button{
     background-color: hsl(154, 59%, 51%);
@@ -47,12 +75,8 @@ form {
     padding-left: 25px;
     padding-right: 25px;
     border-style: hidden;
-    border-radius: 20px;
+    border-radius: 10px;
     width: 100%;
-}
-.form label {
-    background-color: white;
-}
-.form input {
-    background-color: white;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
 }
