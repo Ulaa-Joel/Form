@@ -1,38 +1,72 @@
-/* Front-end Style Guide
-Layout
+@media screen and (max-width:575px) and (min-width:376px) {
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-image: url("/bg-intro-desktop.png");
+        background-color: hsl(0, 100%, 74%);
+    }
+    .main{
+        width: 100%;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        display: flex;
+    }
 
-The designs were created to the following widths:
+    .column{
+        width: 45%;
+        padding: 5%;
+    }
+    .master {
+        margin-bottom: 15px;
+        max-width: 100%;
+    }
+    .input {
+        display: block;
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #dddddd;
+        border-radius: 10px;
+    }
 
-- Mobile: 375px
-- Desktop: 1440px
-
-Colors
-
-Primary
-
-- Red: hsl(0, 100%, 74%) 
-- Green: hsl(154, 59%, 51%)
-
-Accent
-
-- Blue: hsl(248, 32%, 49%)
-
-Neutral
-
-- Dark Blue: hsl(249, 10%, 26%) 
-- Grayish Blue: hsl(246, 25%, 77%)
-
-Typography
-
-Body Copy
-
-- Font size: 16px
-
-Font
-
-- Family: [Poppins](https://fonts.google.com/specimen/Poppins)
-- Weights: 400, 500, 600, 700
-
-@media screen and (max-width:992px) and (min-width:400px) {
-
-} */
+    .form {
+        background-color: white;
+        width: 100%;
+        padding: 30px;
+        border-radius: 10px;
+    }
+    .take {
+        margin-bottom: 30px;
+    }
+    .take button{
+        background-color: hsl(248, 32%, 49%);
+        color: white;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+        border-style: hidden;
+        border-radius: 10px;
+        width: 100%;
+    }
+    .form button{
+        background-color: hsl(154, 59%, 51%);
+        color: white;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
+        border-style: hidden;
+        border-radius: 10px;
+        width: 100%;
+    }
+    h2 {
+        color: white;
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+}
+#btn2:hover {
+    cursor: pointer;
+    background-color: hsl(154, 73%, 65%);
+}

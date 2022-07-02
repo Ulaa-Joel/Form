@@ -142,10 +142,3 @@
         width: 100%;
     }
 }
-@media screen and (max-width:575px) and (min-width:376px) {
-    h2 {
-        color: white;
-        font-size: 25px;
-        margin-bottom: 10px;
-    }
-}
